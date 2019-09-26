@@ -5,6 +5,7 @@ import Things from './Things';
 
 import React from 'react';
 import { HashRouter, Link, NavLink, Route, Switch } from 'react-router-dom';
+import axios from 'axios';
 
 class App extends React.Component{
   constructor(){
